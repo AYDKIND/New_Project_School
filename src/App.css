@@ -32,3 +32,37 @@
     margin-bottom: 15px;
   }
 }
+
+/* Header visual balance adjustments */
+.header-logo {
+  height: 70px;
+  width: auto;
+}
+
+.contact-bar {
+  font-size: 0.95rem;
+}
+
+/* Navbar link sizing for clarity */
+.navbar .nav-link {
+  font-size: 0.98rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .header-logo {
+    height: 60px;
+  }
+  .contact-bar {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-logo {
+    height: 50px;
+  }
+  .contact-bar {
+    font-size: 0.875rem;
+  }
+}

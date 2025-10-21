@@ -145,14 +145,14 @@ function Student() {
                   <span>Mathematics</span>
                   <span>8:00 AM - 9:30 AM</span>
                 </div>
-                <small className="text-muted">Room 101 • Mr. Johnson</small>
+                <small className="text-muted">Room 101 • Mr. Yadav</small>
               </ListGroup.Item>
               <ListGroup.Item action>
                 <div className="d-flex justify-content-between">
                   <span>Science</span>
                   <span>10:00 AM - 11:30 AM</span>
                 </div>
-                <small className="text-muted">Room 203 • Ms. Smith</small>
+                <small className="text-muted">Room 203 • Ms. Yadav</small>
               </ListGroup.Item>
               <ListGroup.Item action>
                 <div className="d-flex justify-content-between">
@@ -166,7 +166,7 @@ function Student() {
                   <span>English</span>
                   <span>12:30 PM - 2:00 PM</span>
                 </div>
-                <small className="text-muted">Room 105 • Mrs. Davis</small>
+                <small className="text-muted">Room 105 • Ms. Singh</small>
               </ListGroup.Item>
             </ListGroup>
           </Card>

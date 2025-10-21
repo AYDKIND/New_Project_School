@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig(({ command }) => ({
   plugins: [react()],
   // Use base only for production builds (GitHub Pages)
-  base: command === 'build' ? '/trail-web/' : '/',
+  base: command === 'build' ? '/New_Project_School/' : '/',
 }))

@@ -1,38 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-  <!-- Provide inner padding so strokes never clip at edges -->
-  <rect width="512" height="512" fill="white"/>
-
-  <!-- Outer circle (reduced radius, thicker stroke) -->
-  <circle cx="256" cy="256" r="228" fill="white" stroke="#0A2E4B" stroke-width="16"/>
-
-  <!-- School name text on top -->
-  <path d="M110,150 A146,146 0 0,1 402,150" fill="none" id="topArc"/>
-  <text font-family="serif" font-weight="bold" font-size="36" fill="#0A2E4B">
-    <textPath href="#topArc" startOffset="50%" text-anchor="middle">BABA VASUDEV</textPath>
-  </text>
-
-  <!-- School name text on bottom -->
-  <path d="M110,362 A146,146 0 0,0 402,362" fill="none" id="bottomArc"/>
-  <text font-family="serif" font-weight="bold" font-size="36" fill="#0A2E4B">
-    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">PUBLIC SCHOOL</textPath>
-  </text>
-
-  <!-- Inner circle -->
-  <circle cx="256" cy="256" r="150" fill="white" stroke="#0A2E4B" stroke-width="8"/>
-
-  <!-- Open book -->
-  <path d="M176,276 L176,232 Q256,204 336,232 L336,276 Q256,244 176,276 Z" fill="white" stroke="#0A2E4B" stroke-width="6"/>
-  <path d="M256,272 L256,232" fill="none" stroke="#0A2E4B" stroke-width="4"/>
-
-  <!-- Graduation cap -->
-  <path d="M208,188 L304,188 L256,156 Z" fill="#0A2E4B"/>
-
-  <!-- Flame -->
-  <path d="M256,264 Q244,240 256,220 Q268,240 256,264 Z" fill="#E86C00"/>
-  <path d="M256,220 L256,200" fill="none" stroke="#0A2E4B" stroke-width="4"/>
-
-  <!-- Dots on sides -->
-  <circle cx="112" cy="256" r="8" fill="#0A2E4B"/>
-  <circle cx="400" cy="256" r="8" fill="#0A2E4B"/>
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#F9F5EC"/>
+  <g transform="translate(85, 40)">
+    <!-- Book -->
+    <path d="M230 100 L230 360 L0 360 L0 100 L230 100 Z" fill="none" stroke="#002B5B" stroke-width="10"/>
+    <path d="M115 100 L115 360" fill="none" stroke="#002B5B" stroke-width="10"/>
+    <path d="M0 100 C40 70 75 70 115 100 C155 70 190 70 230 100" fill="none" stroke="#002B5B" stroke-width="10"/>
+  </g>
+  <g transform="translate(0, 200)">
+    <!-- Text: BABA VASUDEV -->
+    <text x="200" y="100" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#002B5B">BABA VASUDEV</text>
+    <!-- Text: PUBLIC SCHOOL -->
+    <text x="200" y="150" font-family="serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#D4AF37">PUBLIC SCHOOL</text>
+  </g>
 </svg>
